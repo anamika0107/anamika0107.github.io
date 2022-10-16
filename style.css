@@ -286,12 +286,6 @@ footer {
     background-color: #ffffff;
 }
 
-@media only screen and (max-width: 1868px) {
-    header {
-        background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(1800.jpg);
-    }
-}
-
 @media only screen and (max-width: 868px) {
     header {
         width: 100%;
