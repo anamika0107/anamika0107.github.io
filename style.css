@@ -191,6 +191,7 @@ button:hover img {
   }
   
   @media(min-width: 960px){
+      
     .card-grid{
       grid-template-columns: repeat(4, 1fr); 
     }
@@ -376,6 +377,7 @@ footer {
 
     .col-2 .controller {
         width: 77%;
+        justify-content: center;
     }
 
     .color-box {
