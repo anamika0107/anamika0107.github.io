@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rworld - Web developer </title>\
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="navbar">
+            <img src="png_20220513_113120_0000.png" class="logo">
+            <nav>
+                <ul id="menuList">
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Portfoli</a></li>
+                    <li><a href="">Services</a></li>
+                    <li><a href="">About Us</a></li>
+                    <li><a href="">Contact</a></li>
+                </ul>
+            </nav>
+            <img src="Hamburger_icon.svg.png" class="menu-icon" onclick="togglemenu()">
+        </div>
+        <div class="row">
+            <div class="col-1">
+                <div class="hello">Hi I am </div>
+                    <div class="name">Virat kohli </div>
+                    <div class="about">Sportperson </div>
+                    <div class="moreabout">Virat Kohli is an Indian cricketer who plays for India national cricket team.
+                        He was born in Delhi, India on November 5, 1988. </div>
+                        <button type="button">Follow On<img src="Iicon.png"</button>
+            </div>
+            <div class="col-2">
+                <img src="web-development-icons-png.png" class="controller">
+            </div>
+        </div>
+    </div>
+    <section class="hero-section">
+        <div class="card-grid">
+          <a class="card" href="#">
+            <div class="card__background" style="background-image: url(https://images.unsplash.com/photo-1557177324-56c542165309?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80)"></div>
+            <div class="card__content">
+              <p class="card__category">Category</p>
+              <h3 class="card__heading">Example Card Heading</h3>
+            </div>
+          </a>
+          <a class="card" href="#">
+            <div class="card__background" style="background-image: url(https://images.unsplash.com/photo-1557187666-4fd70cf76254?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60)"></div>
+            <div class="card__content">
+              <p class="card__category">Category</p>
+              <h3 class="card__heading">Example Card Heading</h3>
+            </div>
+          </a>
+          <a class="card" href="#">
+            <div class="card__background" style="background-image: url(https://images.unsplash.com/photo-1556680262-9990363a3e6d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60)"></div>
+            <div class="card__content">
+              <p class="card__category">Category</p>
+              <h3 class="card__heading">Example Card Heading</h3>
+            </div>
+          </li>
+          <a class="card" href="#">
+            <div class="card__background" style="background-image: url(https://images.unsplash.com/photo-1557004396-66e4174d7bf6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60)"></div>
+            <div class="card__content">
+              <p class="card__category">Category</p>
+              <h3 class="card__heading">Example Card Heading</h3>
+            </div>
+          </a>
+        <div>
+      </section>
+      <footer class="footer">
+        <div class="fcontainer">
+            <div class="row">
+                <div class="footer-col">
+                    <h4>Rworld - Web developer</h4>
+                    <ul>
+                        <li><a href="#"">About us</a></li>
+                        <li><a href=" #"">Our Services</a></li>
+                        <li><a href="" #">Contact</a></li>
+                        <li><a href="#"">Portfolio</a></li>
+                        <li><a href=" #""> Our Location</a></li>
+                
+
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4> Follow Us</h4>
+                    <div class="social-links">
+                        <a href="#">
+                            <ion-icon name="logo-facebook"></ion-icon>
+                        </a>
+                        <a href="#">
+                            <ion-icon name="logo-instagram"></ion-icon>
+                        </a>
+                        <a href="#">
+                            <ion-icon name="logo-twitter"></ion-icon>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script>
+        var menuList = document.getElementById("menuList");
+
+        menuList.style.maxHeight = "0px";
+        
+        function togglemenu(){
+
+            if(menuList.style.maxHeight =="0px")
+            {
+                menuList.style.maxHeight = "130px"
+            }
+            else
+            {
+                menuList.style.maxHeight = "0px"
+            }
+        }
+    </script>
+</body>
+</html>
